@@ -1,0 +1,27 @@
+.man_main_flex_event {
+  display: flex;
+  gap: 28px;
+}
+.sidebar {
+  padding-top: 20px;
+  color: white;
+  width: 20%;
+  flex: 1 1 20%;
+  background-color: #000;
+}
+
+.sidebar .nav-link {
+  color: #fff;
+  border-bottom: 1px solid #ffffff42;
+  padding: 20px 20px;
+  font-size: 20px;
+  /* Set your desired text color */
+}
+
+.sidebar .nav-link:hover {
+  background-color: #007bff;
+  color: white; /* Set your desired hover text color */
+}
+.sidebar.nav-item {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.833);
+}

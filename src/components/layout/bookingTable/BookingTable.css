@@ -1,0 +1,97 @@
+.man_event_right {
+    width: 80%;
+    flex: 1 1 80%;
+    padding: 0 10px;
+}
+.man_event_right h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+.man_event_right .first_table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-top: 33px !important;
+    margin-bottom: 33px !important;
+    border: 1px solid #cdcaca !important;
+}
+.man_event_right .second_table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-top: 33px !important;
+    border: 1px solid #cdcaca !important;
+}
+.man_event_right .third_table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-top: 33px !important;
+    border: 1px solid #cdcaca !important;
+}
+
+
+.man_event_right table input {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 11px;
+    box-shadow: 4px 2px 20px 0px #00000021;
+    background-color: #fff;
+    width: 45%;
+}
+.man_event_right .first_table input:focus {
+    border-color: transparent;
+    outline: none;
+    box-shadow: 4px 2px 20px 0px #00000021;
+    background-color: #fff !important;
+}
+.man_event_right tbody tr {
+    border: 1px solid #cdcaca;
+}
+.man_event_right tbody td {
+    border: 1px solid #cdcaca;
+    padding: 10px 10px;
+}
+.man_event_right textarea {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 11px;
+    height: 40px;
+    box-shadow: 4px 2px 20px 0px #00000021;
+    background-color: #fff;
+    width: 45%;
+}
+.man_event_right form  td:nth-child(1) {
+    width: 30%;
+}
+.man_event_right tbody tr:nth-child(odd) {
+    background-color: #0000ff1f;
+}
+.man_event_right  #addMore {
+    text-decoration: none;
+    padding: 9px 34px;
+    font-size: 17px;
+    border-radius: 53px;
+    font-family: poppins;
+    text-transform: capitalize;
+    font-weight: 400;
+    border: 1px solid #00f;
+    color: #00f;
+}
+.man_event_right #btn {
+    background-color: #0000FF;
+    color: #fff;
+    padding: 9px 80px;
+    font-size: 17px;
+    border: none;
+    border-radius: 53px;
+    font-family: poppins;
+    margin-left: 29px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.man_event_right button#btn:hover {
+    background-color: #000000;
+    color: #fff;
+}
