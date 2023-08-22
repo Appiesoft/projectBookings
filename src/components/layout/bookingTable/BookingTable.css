@@ -30,8 +30,6 @@
     margin-top: 33px !important;
     border: 1px solid #cdcaca !important;
 }
-
-
 .man_event_right table input {
     border: 1px solid #ddd;
     border-radius: 20px;
@@ -68,6 +66,9 @@
 .man_event_right tbody tr:nth-child(odd) {
     background-color: #0000ff1f;
 }
+.man_event_right tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 .man_event_right  #addMore {
     text-decoration: none;
     padding: 9px 34px;
@@ -94,4 +95,59 @@
 .man_event_right button#btn:hover {
     background-color: #000000;
     color: #fff;
+}
+
+
+@media only screen and (min-width: 767px)and (max-width:889px ) {
+    .man_event_right h1 {
+        font-size: 27px;
+    } 
+    .man_event_right table input {
+        padding: 5px;
+        width: 67%;
+    } 
+    .man_event_right textarea {
+        padding: 5px;
+        width: 67%;
+    }
+    .man_event_right #addMore {
+        padding: 10px 14px;
+        font-size: 15px;
+    }
+    .man_event_right #btn{
+        padding: 10px 54px;
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:0px )and (max-width:767px ) {
+    .man_main_flex_event {
+        display: block;
+    }
+    .man_event_right {
+        width: 100%;
+    }
+    .man_event_right  table input {
+        width: 90%;
+    }
+    .man_event_right textarea {
+        width: 90%;
+    }
+    .man_event_right table input {
+        padding: 5px
+    }
+    .man_event_right textarea{
+        padding: 5px
+    }
+    .man_event_right #addMore {
+        padding: 10px 21px;
+        font-size: 13px;
+    }
+    .man_event_right #btn{
+        padding: 10px 54px;
+        font-size: 13px;
+    }
+    .man_event_right h1 {
+        font-size: 35px;
+    }
+
 }

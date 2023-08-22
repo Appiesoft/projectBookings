@@ -4,7 +4,7 @@ import './BookingTable.css'
 const BookingTable = () => {
   return (
     <>
-      <div className="man_event_right mt-5">
+      <div className="man_event_right mt-3 mt-lg-5">
         <b>
           <h1>Event Details</h1>
         </b>

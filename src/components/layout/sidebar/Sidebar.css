@@ -25,3 +25,21 @@
 .sidebar.nav-item {
   border-bottom: 1px solid rgba(128, 128, 128, 0.833);
 }
+
+/* mobile view  */
+
+@media only screen and (min-width: 767px)and (max-width:889px ) {
+
+  .sidebar .nav-link {
+      font-size: 14px !Important;
+  }
+  }
+
+  @media only screen and (min-width:0px )and (max-width:767px ) {
+    .sidebar {
+      width: 100%;
+    }
+    .sidebar .nav-link {
+      font-size: 17px;
+  }
+  }
